@@ -1,0 +1,77 @@
+body {
+    background-color: #0c1017;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.caixa-principal {
+    background-color: #151b26;
+    width: 90%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #00d2ff;
+    margin-bottom: 20px;
+}
+
+.caixa-inicial {
+    display: block;
+}
+
+.texto-inicial {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.caixa-perguntas {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.caixa-alternativas button,
+.btn-iniciar,
+.btn-jogar-novamente {
+    background-color: #222c3d;
+    color: #ffffff;
+    border: 1px solid #00d2ff;
+    padding: 12px 20px;
+    margin: 8px 0;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.caixa-alternativas button:hover,
+.btn-iniciar:hover,
+.btn-jogar-novamente:hover {
+    background-color: #00d2ff;
+    color: #0c1017;
+    font-weight: bold;
+}
+
+.caixa-resultado {
+    display: none;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.btn-jogar-novamente {
+    margin-top: 20px;
+}
